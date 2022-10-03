@@ -4,10 +4,17 @@
 
  
  const dashboard = () => {
+    //current balance
     let currentBalance = document.getElementById("current_balance");
     currentUser = JSON.parse(localStorage.getItem("current_session"));
     const balance = currentUser[0].initialDepositData;
     currentBalance.innerHTML = balance;
+
+    //profile display
+    let displayName = document.getElementById("display_Name");
+    const name = currentUser[0].namedata;
+    displayName.innerHTML = name;
+
  }
 
 const personaInfo = () => {
