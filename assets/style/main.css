@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+}
+button:active{
+    border: none;
+}
+#dashboard main div div div{
+    background-color: #f5f8f8;
+}
+
+.rounded-corner{
+    border-radius: 10px!important;
+}
+.btn-style-withdraw{
+    border-radius: 50%!important;
+}
+.btn-style-deposit{
+    border-radius: 20px!important;
+}
+
+.bg-color-blue{
+    background-color: #0b40a9!important;
+}
+.bg-color-light-blue{
+    background-color: #25a5ec!important;
+}
+.bg-color-white{
+    background-color: white!important;
+}
+.card-1-col-1{
+    width: 75%;
+    height: 100px;
+    margin-top: 20px;
+}
+.card-1-col-2{
+    width: 75%;
+    height: 75px;
+    margin-top: 20px;
+}
+.card-1-col-3{
+    width: 75%;
+    height: 200px;
+    margin-top: 20px;
+}
+.btn-col-1{
+    width: 200px;
+    height: 40px;
+    border-radius: 11px;
+}
+
+.bg-color-tomato{
+    background-color: #ef5b5b!important;
+}
+.color-tomato{
+    color: #ef5b5b!important;
+}
+.card-2-col-1{
+    width: 75%;
+    height: 160px;
+    margin-top: 20px;
+}
+.display-txt-4{
+    font-size: 45px!important;
+}
+.display-txt-5{
+    font-size: 50px!important;
+}
+.avatar{
+    background-image:url("../img/bankAPP_Avatar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.avatar-bg{
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+}

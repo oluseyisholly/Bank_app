@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="./assets/style/main.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+</head>
+<body id="login_page">
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-5" >
+          <h1 class="text-center">LOGIN</h1> 
+          <form class="border rounded bg-color-light-blue py-3 " style="box-shadow: 0 0 10px; border: 0!important;" id="reg_Form">
+            <div class="w-75 my-3 mx-auto">
+                <label for="username" class="form-label text-white">User Name:</label>
+                <input type="text" class="w-100  form-control" id="username" placeholder="Enter Email Address" name="username" required="true">
+            </div>
+            <div class="w-75 my-3 mx-auto">
+                <label for="password" class="form-label text-white">Password:</label>
+                <input type="password" class="w-100  form-control" id="password" placeholder="Enter pasword" name="password" required="true">
+            </div>
+            <div class="w-75 my-3 mx-auto">
+                <input style="background-color: #0b40a9; color: white;" type="button" class="w-25 form-control bg-color-light-blue" id="login" value="Login" placeholder="login" name="button" >
+                <span class=""> Not yet Registerd? 
+                  <a class="text-white" href="./register.html" style="text-decoration: none!important;">Sign Up</a>
+                </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script/main.js"></script>
+</body>
+</html>
