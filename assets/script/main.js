@@ -37,7 +37,7 @@ register_btn?.addEventListener("click",() => {
         allUsers.push(reg_data);
         allUsers = JSON.stringify(allUsers);
         localStorage.setItem("all_users_data", allUsers);
-        location.assign("login.html")
+        location.assign("index.html")
     } 
     else{
         alert("user Already Exists")
